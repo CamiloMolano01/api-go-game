@@ -3,7 +3,7 @@ import { Turn } from './dto/turn.dto';
 
 @Injectable()
 export class AppService {
-  private black_turn = true;
+  private black_turn = false;
   private last_position_x = -1;
   private last_position_y = -1;
 
